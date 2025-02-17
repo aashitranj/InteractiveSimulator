@@ -1,0 +1,35 @@
+body {
+  margin: 0;
+  overflow: hidden;
+  background: #1a1a1a;
+}
+
+.controls {
+  position: fixed;
+  top: 15px;
+  left: 15px;
+  background: rgba(40, 40, 40, 0.9);
+  padding: 12px;
+  border-radius: 8px;
+  backdrop-filter: blur(5px);
+}
+
+button {
+  background: #007bff;
+  border: none;
+  padding: 8px 15px;
+  margin: 0 5px;
+  color: white;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: opacity 0.2s;
+}
+
+button:hover {
+  opacity: 0.8;
+}
+
+#speedSlider {
+  vertical-align: middle;
+  margin-left: 10px;
+}
